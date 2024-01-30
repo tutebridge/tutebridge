@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=saprtan:wegt@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width:100%
+}
+
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    transition-delay: 1.5s;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 10;
+  width: fit-content;
+  height: fit-content;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  nav li:hover{
+    border-radius: 25px;
+  background:  #73AD21;
+  padding: 10;
+  width: fit-content;
+  height: fit-content;
+
+  }
+  
+  .hero-section {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .tute{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #2980b9;
+  }
+  /* all coarses*/
+  .main-container{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .featured-courses-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .course-card h3,
+  .course-card p {
+    padding: 10px;
+  }
+  
+  .learn-more-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #2980b9;
+  }
+  .scroll{
+    width: auto;
+  }
+  .featured-courses,
+  .testimonials {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    margin: 15px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  footer {
+    background-color: #b5b5b5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+
+
+  /*   about page     */
+  .about-section {
+    background-color: #ecf0f1;
+    padding: 50px 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+
+  /*------------contact page--------*/
+  .contact-section {
+    background-color: #ecf0f1;
+    padding: 50px 20px;
+  }
+  
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  /*-----------courses-----------*/
+  .course-page-section {
+    background-color: #ededed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #73AD21;
+  padding: 10;
+  width: fit-content;
+  height: fit-content;
+  }
+  
+  .course-page-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .course-page-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .description{
+    justify-content: center;
+    margin: 10px 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .delta{
+    border-radius: 25px;
+  background:  #73AD21;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+  
+  }
+  .points{
+    justify-content: center;
+    margin-top: 15px;
+    margin: 15px 10px;
+    text-align: justify;
+  }
+  .key-features{
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  /* Media query for mobile view */
+  @media only screen and (max-width: 600px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #3498db;
+      display: none;
+    }
+  
+    nav input:checked + .menu-icon + ul {
+      display: flex;
+    }
+  
+    nav a {
+      padding: 10px;
+    }
+  }
+
+
+
+
+
+
+
